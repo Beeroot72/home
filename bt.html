@@ -1,8 +1,96 @@
-<html>
-  <head>
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Beeroot</h1>
-    </body>
+<!DOCTYPE html>
+<html language="en">
+<head> 
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="Alias">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Home</title>
+<style>
+
+.header {
+      padding: 0 70px;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: Arial;
+      background-color:   #440001;
+      color: white;      
+      border-radius: 2px;      
+    }
+
+.nav {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      gap: 60px;
+      list-style-type: none;
+    }
+
+.nav li a {
+      font-family: cursive, sans-serif;
+      text-decoration:none;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+ margin: 40px
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 88%;
+  padding: 5px;
+}
+
+
+// Get the video
+var video = document.getElementById("myVideo");
+
+	
+</style>
+</head>
+
+</body>
+
+// <div class="header">
+     
+
+<video autoplay muted loop id="myVideo">
+  <source src="sketch_-_1038 (720p).mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h2 class="logo">Beeroot</h2>
+      <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Articles</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+</div>
+
+<div>
+
+hello
+</div>
+
+</body>
+
 </html>
