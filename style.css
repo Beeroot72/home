@@ -1,0 +1,51 @@
+.logo{
+  font-family: cursive, sans-serif;
+    }
+
+.nav {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      gap: 60px;
+      list-style-type: none;
+    }
+
+.nav li a {
+      font-family: cursive, sans-serif;
+      text-decoration:none;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+    }
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  margin: 2%;
+  top: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 93.5%;
+  padding: 10px;
+    }
+
+.content2 {
+  position: fixed;
+  margin-top: 200px;
+  margin-left: 40px;
+  top: 50;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 40%;
+  padding: 10px;
+  font-size: 40px;
+  font-family: cursive, sans-serif;
+    }
